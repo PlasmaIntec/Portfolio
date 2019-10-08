@@ -11,6 +11,14 @@ const public = path.join(__dirname, '../public');
 app.use(morgan('dev'));
 app.use('/', express.static(public));
 
+app.get('/*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../public/index.html'), (err) => {
+    if (err) {
+      res.status(500).send(err)
+    }
+  })
+});
+
 app.listen(port, () => {
   console.log(`Express server for Portfolio running at: http://localhost:${port}`);
 });

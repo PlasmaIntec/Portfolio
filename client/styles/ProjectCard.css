@@ -1,0 +1,13 @@
+.project-card-container {
+	width: 60vw;
+	height: 40vh;
+	box-shadow: 5px 5px 8px #888888;
+}
+
+.project-card-github-icon {
+	width: 30px;
+}
+
+.project-card-picture {
+	width: 200px;
+}

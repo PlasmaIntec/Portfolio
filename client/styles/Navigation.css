@@ -1,0 +1,17 @@
+.head-nav-container {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+}
+
+.head-nav {
+	margin: 10px;
+	background: rgba(51, 170, 51,  1);
+	text-decoration: none;
+}
+
+.head-nav:hover {
+	background: rgba(51, 170, 51,  .2);
+}

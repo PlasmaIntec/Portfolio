@@ -5,3 +5,9 @@ python
 *~Stashed changes
 
 bundle.js
+
+.DS_Store
+
+public/*.png
+
+public/*.svg
